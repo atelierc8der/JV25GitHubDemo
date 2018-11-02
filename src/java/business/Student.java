@@ -16,7 +16,7 @@ public class Student {
         this.studentName = studentName;
         this.batch = batch;
     }
-
+/*Get and Set*/
     public String getBatch() {
         return batch;
     }
