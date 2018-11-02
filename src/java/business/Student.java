@@ -1,6 +1,6 @@
 package business;
 
-
+/*This is Student*/
 public class Student {
     int studentId;
     String studentName;
@@ -10,7 +10,7 @@ public class Student {
     }
 
     
-
+/*Contruct*/
     public Student(int studentId, String studentName, String batch) {
         this.studentId = studentId;
         this.studentName = studentName;
