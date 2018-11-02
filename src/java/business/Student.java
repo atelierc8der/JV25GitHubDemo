@@ -4,26 +4,20 @@ package business;
 public class Student {
     int studentId;
     String studentName;
-    String batch;
+    
 
     public Student() {
     }
 
     
 /*Contruct*/
-    public Student(int studentId, String studentName, String batch) {
+    public Student(int studentId, String studentName) {
         this.studentId = studentId;
         this.studentName = studentName;
-        this.batch = batch;
+        
     }
 /*Get and Set*/
-    public String getBatch() {
-        return batch;
-    }
-
-    public void setBatch(String batch) {
-        this.batch = batch;
-    }
+    
     
     public int getStudentId() {
         return studentId;
